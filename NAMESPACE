@@ -1,0 +1,28 @@
+################################################
+## fExtremes
+################################################
+
+
+################################################
+## import name space
+################################################
+
+import("timeDate")
+import("timeSeries")
+import("fBasics")
+import("fGarch")
+
+importFrom("graphics", axis, box, grid, hist, mtext, par, rug, text, title)
+importFrom("methods", is, new)
+importFrom("stats", acf, dnorm, integrate, lowess, lsfit, optim,
+	ppoints, qchisq, qexp, qnorm, rexp, runif, sd, spline, uniroot, var)
+
+
+################################################
+## functions
+################################################
+exportPattern(".")
+S3method("plot", "fGEVFIT")
+S3method("summary", "fGEVFIT")
+S3method("plot", "fGPDFIT")
+S3method("summary", "fGPDFIT")
