@@ -862,7 +862,7 @@ function(x)
         abline(v = u, lty = 3, col = "red")
         abline(v = U, lty = 3, col = "red")
 
-        # Fit line to mean excess within thresolds:
+        # Fit line to mean excess within thresholds:
         X = as.vector(ans[, 1])
         Y = as.vector(ans[, 2])
         Y = Y[X > u & X < U]
