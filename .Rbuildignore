@@ -4,3 +4,4 @@
 ^\.github$
 ^cran-comments\.md$
 ^appveyor\.yml$
+^README\.Rmd$
