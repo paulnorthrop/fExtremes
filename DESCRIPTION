@@ -1,6 +1,6 @@
 Package: fExtremes
 Title: Rmetrics - Modelling Extreme Events in Finance
-Date: 2022-07-14
+Date: 2022-08-05
 Version: 4021.83
 Authors@R: c(person("Diethelm", "Wuertz", role = "aut")
 	   , person("Tobias", "Setz", role = "aut")
