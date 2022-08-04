@@ -1,4 +1,4 @@
-# fExtremes 4021.82
+# fExtremes 4021.83
 
 * New maintainer: Paul Northrop
 * Updated DESCRIPTION with links and moved timeDate, fGarch from Depends: to Imports:.
