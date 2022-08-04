@@ -16,5 +16,5 @@ Version contains large components (4021.83) : I am continuing the historical ver
 
 ## Downstream dependencies
 
-Strong downstream dependencies (AssocTests, CompDist, extremeStat) passed R CMD check.
+All downstream dependencies (AssocTests, CompDist, extremeStat, fitteR, lax) passed R CMD check.
 
