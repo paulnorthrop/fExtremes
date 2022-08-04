@@ -6,6 +6,8 @@
 [![AppVeyor Build
 Status](https://ci.appveyor.com/api/projects/status/github/paulnorthrop/fExtremes?branch=main&svg=true)](https://ci.appveyor.com/project/paulnorthrop/fExtremes)
 [![R-CMD-check](https://github.com/paulnorthrop/fExtremes/workflows/R-CMD-check/badge.svg)](https://github.com/paulnorthrop/fExtremes/actions)
+[![Coverage
+Status](https://codecov.io/github/paulnorthrop/fExtremes/coverage.svg?branch=main)](https://codecov.io/github/paulnorthrop/fExtremes?branch=main)
 [![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/fExtremes)](https://cran.r-project.org/package=fExtremes)
 [![Downloads
 (monthly)](https://cranlogs.r-pkg.org/badges/fExtremes?color=brightgreen)](https://cran.r-project.org/package=fExtremes)
@@ -28,6 +30,9 @@ distribution to these data and creates model diagnostic plots.
 
 ``` r
 library(fExtremes)
+#> Loading required package: timeSeries
+#> Loading required package: timeDate
+#> Loading required package: fBasics
 # Simulate GEV Data, use default length n=1000
 x <- gevSim(model = list(xi = 0.25, mu = 0 , beta = 1), n = 1000)
 
@@ -46,10 +51,10 @@ fit
 #> 
 #> Estimated Parameters:
 #>          xi          mu        beta 
-#>  0.26031160 -0.01315679  0.99479288 
+#>  0.25032643 -0.01539619  1.00313935 
 #> 
 #> Description
-#>   Thu Aug  4 14:14:34 2022
+#>   Thu Aug  4 17:07:53 2022
 ```
 
 ### Installation
