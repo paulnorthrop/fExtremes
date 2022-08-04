@@ -167,7 +167,7 @@ function(x, p = 0.99, ci = 0.95, type = c("likelihood", "wald"), like.num = 50)
     # if (q < x$plotmax) abline(v = q, lty = 2)
     out = as.numeric(q)
     if (ci.type == "wald") {
-        if (class(x$lastfit) != "gpd")
+        if (!inherits(x$lastfit, "gpd"))
             stop("Wald method requires model be fitted with gpd (not pot)")
         scaling = threshold
         betahat = betahat/scaling
