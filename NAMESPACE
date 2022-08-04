@@ -12,6 +12,9 @@ import("timeSeries")
 import("fBasics")
 import("fGarch")
 
+importClassesFrom("timeSeries", as.timeSeries)
+importMethodsFrom("timeSeries", as.timeSeries)
+
 importFrom("graphics", axis, box, grid, hist, mtext, par, rug, text, title)
 importFrom("methods", is, new)
 importFrom("stats", acf, dnorm, integrate, lowess, lsfit, optim,
