@@ -286,6 +286,7 @@ tailRisk(object, prob = c(0.99, 0.995, 0.999, 0.9995, 0.9999), \dots)
 
 \examples{
 ## Load Data:
+   library(timeSeries)
    danish = as.timeSeries(data(danishClaims))
 
 ## Tail Plot:

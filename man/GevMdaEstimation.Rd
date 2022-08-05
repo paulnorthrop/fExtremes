@@ -265,6 +265,7 @@ Embrechts, P., Klueppelberg, C., Mikosch, T. (1997);
   
 \examples{  
 ## Load Data:
+   library(timeSeries)
    x = as.timeSeries(data(danishClaims))
    colnames(x) <- "Danish"
    head(x)

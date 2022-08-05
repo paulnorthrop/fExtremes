@@ -193,6 +193,7 @@ Embrechts, P., Klueppelberg, C., Mikosch, T. (1997);
 ## of the BMW log returns:
    data(bmwRet)
    par(mfrow = c(2, 2), cex = 0.7)
+   library(timeSeries)
    exindexPlot( as.timeSeries(bmwRet), block = "quarterly")
    exindexPlot(-as.timeSeries(bmwRet), block = "quarterly")   
    

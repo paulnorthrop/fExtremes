@@ -302,6 +302,7 @@ Embrechts, P., Klueppelberg, C., Mikosch, T. (1997);
 \examples{ 
 ## Danish fire insurance data:
    data(danishClaims)
+   library(timeSeries)
    danishClaims = as.timeSeries(danishClaims)
    
 ## emdPlot -
