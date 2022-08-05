@@ -7,4 +7,4 @@
 
 # fExtremes 3042.82 and older versions
 
-See file ChangeLog on [the CRAN fExtremes page](https://CRAN.R-project.org/package=fExtremes) for changes before 4021.82.
+See file ChangeLog on [the CRAN fExtremes page](https://CRAN.R-project.org/package=fExtremes) for changes before 4021.83.
