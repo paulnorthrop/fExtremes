@@ -30,9 +30,6 @@ distribution to these data and creates model diagnostic plots.
 
 ``` r
 library(fExtremes)
-#> Loading required package: timeSeries
-#> Loading required package: timeDate
-#> Loading required package: fBasics
 # Simulate GEV Data, use default length n=1000
 x <- gevSim(model = list(xi = 0.25, mu = 0 , beta = 1), n = 1000)
 
@@ -50,11 +47,11 @@ fit
 #>   gev mle 
 #> 
 #> Estimated Parameters:
-#>          xi          mu        beta 
-#>  0.25032643 -0.01539619  1.00313935 
+#>         xi         mu       beta 
+#> 0.18304217 0.04548892 0.99014748 
 #> 
 #> Description
-#>   Thu Aug  4 17:07:53 2022
+#>   Fri Aug  5 17:30:44 2022
 ```
 
 ### Installation
