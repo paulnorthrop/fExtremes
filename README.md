@@ -25,8 +25,8 @@ the [Rmetrics software project](https://www.rmetrics.org/).
 
 ### An example
 
-The following code simulates data from a GEV distribution, fits a GEV
-distribution to these data and creates model diagnostic plots.
+The following code simulates data from a GEV distribution and fits a GEV
+distribution to these data.
 
 ``` r
 library(fExtremes)
@@ -51,7 +51,7 @@ fit
 #> 0.18304217 0.04548892 0.99014748 
 #> 
 #> Description
-#>   Fri Aug  5 17:30:44 2022
+#>   Sat Aug  6 21:26:48 2022
 ```
 
 ### Installation

@@ -30,7 +30,7 @@ The **fExtremes** package provides functions for analysing and modelling extreme
 
 ### An example
 
-The following code simulates data from a GEV distribution, fits a GEV distribution to these data and creates model diagnostic plots.
+The following code simulates data from a GEV distribution and fits a GEV distribution to these data.
 
 ```{r, echo = FALSE}
 set.seed(5082022)
