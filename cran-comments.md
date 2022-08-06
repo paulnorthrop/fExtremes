@@ -4,7 +4,7 @@
 
 I am taking over from the old maintainer : Tobias Setz. Tobias e-mailed CRAN@R-project.org on 13th July 2022 to confirm this
 
-Version contains large components (4021.83) : I am continuing the historical version conventions of the packages in the Rmetrics family.  
+Version contains large components (4021.83) : I am continuing the historical version conventions of the packages in the Rmetrics family of packages  
 
 ## Test environments
 
@@ -16,5 +16,5 @@ Version contains large components (4021.83) : I am continuing the historical ver
 
 ## Downstream dependencies
 
-All downstream dependencies (AssocTests, CompDist, extremeStat, fitteR, lax) passed R CMD check.
+All downstream dependencies (AssocTests, CompDist, extremeStat, fitteR, lax) passed R CMD check
 
