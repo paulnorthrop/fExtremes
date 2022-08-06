@@ -1,4 +1,4 @@
-# fExtremes 4021.83
+# fExtremes 4021.83: revisions 6272-6275 on R-Forge
 
 * New maintainer: Paul Northrop
 * Updated DESCRIPTION with links and moved timeDate, timeSeries, fBasics and fGarch from Depends: to Imports:.
