@@ -2,8 +2,6 @@
 
 0 errors | 0 warnings | 0 notes
 
-I am taking over from the old maintainer : Tobias Setz. Tobias e-mailed CRAN@R-project.org on 13th July 2022 to confirm this
-
 Version contains large components (4021.83) : I am continuing the historical version conventions of the packages in the Rmetrics family of packages  
 
 ## Test environments
