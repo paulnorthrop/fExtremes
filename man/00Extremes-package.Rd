@@ -22,13 +22,11 @@
 \details{
 
     \preformatted{
-        Package:    \tab fExtremes\cr
-        Type:       \tab Package\cr
-        %Version:    \tab R 3.0.1\cr
-        %Date:       \tab 2014\cr
-        License:    \tab GPL Version 2 or later\cr
-        Copyright:  \tab (c) 1999-2014 Rmetrics Assiciation\cr
-        URL:        \tab \url{https://www.rmetrics.org}
+        Package:    fExtremes
+        Type:       Package
+        License:    GPL Version 2 or later
+        Copyright:  (c) 1999-2014 Rmetrics Association
+        URL:        https://www.rmetrics.org
     }
     
 }
