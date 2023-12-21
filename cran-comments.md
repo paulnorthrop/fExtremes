@@ -2,13 +2,12 @@
 
 0 errors | 0 warnings | 0 notes
 
-Version contains large components (4021.83) : I am continuing the historical version conventions of the packages in the Rmetrics family of packages  
+Version contains large components (4032.84) : I am continuing the historical version conventions of the packages in the Rmetrics family of packages  
 
 ## Test environments
 
 - Debian Linux, GCC (R-patched and R-devel) on R-hub
-- Fedora Linux, GCC (R-devel) on R-hub
-- Oracle Solaris 10, x86, 32 bit, R-release on R-hub
+- Fedora Linux, clang (R-devel) on R-hub
 - macOS (R-release), ubuntu (R-oldrel, R-release, R-devel), windows (R-release) using the rcmdcheck package
 - win-builder (R-devel, R-release and R-oldrelease)
 
