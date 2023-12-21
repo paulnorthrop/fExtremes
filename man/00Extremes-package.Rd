@@ -70,7 +70,7 @@
 
     This section contains a collection of functions for explorative data 
     analysis of extreme values in financial time series. The tools include 
-    plot functions for emprical distributions, quantile plots, graphs 
+    plot functions for empirical distributions, quantile plots, graphs 
     exploring the properties of exceedances over a threshold, plots for 
     mean/sum ratio and for the development of records. The functions are:
     
@@ -271,9 +271,8 @@
     runTheta             computes theta from Run Method
     ferrosegersTheta     computes theta according to Ferro and Segers
     }
-    
     \preformatted{
-    exindexPlot          calculatess and plots Theta(1,2,3)
+    exindexPlot          calculates and plots Theta(1,2,3)
     exindexesPlot        calculates Theta(1,2) and plots Theta(1)
     }
     
