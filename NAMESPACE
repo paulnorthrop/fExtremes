@@ -97,6 +97,10 @@ export(
     tailRisk,
     # Needed for unit tests
     .gevpwmFit
+    .gevmleFit,
+    .gumpwmFit,
+    .gummleFit,
+    .gevrlevelLLH
 )    
 
 S3method(plot, fGEVFIT)
