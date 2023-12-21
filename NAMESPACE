@@ -96,7 +96,7 @@ export(
     tailSlider,
     tailRisk,
     # Needed for unit tests
-    .gevpwmFit
+    .gevpwmFit,
     .gevmleFit,
     .gumpwmFit,
     .gummleFit,
